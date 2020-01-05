@@ -31,6 +31,23 @@ public class Main {
 		long myMaxLongValue = Long.MAX_VALUE;
 		System.out.println("Long Minimum Value = " + myMinLongValue);
 		System.out.println("Long Maximum Value = " + myMaxLongValue);
+		
+		int myTotal = (myMinIntValue / 2); 
+		
+		byte myNewByteValue = (byte) (myMinByteValue / 2);
+		
+		short myNewShortValue = (short) (myMinShortValue / 2);
+		
+		long myNewLongValue = (long) (myMinLongValue / 2);
+		
+		byte myByteValue = (byte) 500;
+		
+		short myShortValue = (short) 400;
+		
+		int myRandomNumber = 1000; 
+		
+		long myRandomLongValue = (long) (50000 + 10) * (myByteValue + myShortValue + myRandomNumber);
+		System.out.println(myRandomLongValue);
 	}
 
 }
